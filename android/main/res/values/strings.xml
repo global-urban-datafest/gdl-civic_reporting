@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Civic Reporting</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+        <string-array name="incident_categories">
+        <item>Incidente Vial</item>
+        <item>Seguridad</item>
+        <item>Emergencia Medica</item>
+        <item>Inundacion</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="vial_incidents">
+        <item>Choque</item>
+        <item>Semaforo Descompuesto</item>
+        <item>Bache</item>
+        <item>Obstruccion</item>
+    </string-array>
+    <string-array name="sec_incidents">
+        <item>Agresion</item>
+        <item>Robo</item>
+    </string-array>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_my_reports">Mis Reportes</string>
+    <string name="title_activity_map">Mapa de Incidencias</string>
+    <string name="title_activity_incident">Nuevo Reporte</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

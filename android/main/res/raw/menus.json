@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {"cat_name": "Accidente",
+        "is_root":"true",
+        "cat_content":[
+            {"cat_name":"Bache",
+            "report_send":"true"
+            },
+            {"cat_name":"Robos",
+
+            "cat_content":[
+                {"cat_name":"Casa Habitacion","report_send":"true"},
+                {"cat_name":"Mano Armada",
+                  "cat_content":[
+                     {"cat_name":"Arma Blanca"},
+                     {"cat_name":"Arma"}
+                 ]},
+                {"cat_name":"Moto","report_send":"true"},
+                {"cat_name":"Hit and Run","report_send":"true"}
+            ]},
+            {"cat_name":"Infraestructura",
+            "report_send":"true",
+            "cat_content":[
+                {"cat_name":"Obstruccion","report_send":"true"},
+                {"cat_name":"Semaforo Danado","report_send":"true"}
+            ]}
+        ]},
+        {"cat_name": "Choque",
+         "cat_content":[
+            {"cat_name":"Requiere Ambulancia","report_send":"true"},
+            {"cat_name":"No Requiere Ambulancia","report_send":"true"}
+        ]},
+        {"cat_name": "Inundacion","report_send":"true"},
+        {"cat_name": "Agresion",
+        "cat_content":[
+           {"cat_name":"Pelea","report_send":"true"},
+           {"cat_name":"Violencia Intrafamiliar","report_send":"true"}
+        ]}
+    ]
+}
